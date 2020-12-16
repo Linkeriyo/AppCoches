@@ -1,4 +1,4 @@
-package com.example.recycleview2020
+package com.example.appcoches
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

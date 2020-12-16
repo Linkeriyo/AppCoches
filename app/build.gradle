@@ -10,7 +10,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.recycleview2020"
+        applicationId "com.example.appcoches"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -56,6 +56,6 @@ dependencies {
     compileOnly 'com.google.android.wearable:wearable:2.6.0'
 
 
-
+    implementation 'com.android.volley:volley:1.1.1'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
 }
