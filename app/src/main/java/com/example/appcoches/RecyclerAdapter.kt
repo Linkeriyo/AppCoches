@@ -29,10 +29,11 @@ class RecyclerAdapter(val context: Context, val carList: List<Car>,
 
     override fun onBindViewHolder(holder: BaseViewHolder<*>, position: Int) {
         //carga datos en lista
-        if (holder is CarsViewHolder)
+        if (holder is CarsViewHolder) {
             holder.bind(carList[position], position)
-        else
+        } else {
             throw IllegalArgumentException("Error viewHolder erroneo")
+        }
     }
 
     override fun getItemCount(): Int = carList.size          //número de items
